@@ -15,6 +15,8 @@ def pip_install(package):
     else:
         pip._internal.main(['install', package])
 
+pip_install('pandas')
+        
 pip_install('psycopg2-binary')
 
 pip_install('SQLAlchemy')
