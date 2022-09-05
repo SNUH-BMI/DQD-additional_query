@@ -1,0 +1,7 @@
+cdmDatabaseSchema,cdmTableName,StartDate
+cdm,CONDITION_OCCURRENCE,condition_start_date
+cdm,DRUG_EXPOSURE,drug_exposure_start_date
+cdm,PROCEDURE_OCCURRENCE,procedure_date
+cdm,MEASUREMENT,measurement_date
+cdm,NOTE,note_date
+cdm,OBSERVATION,observation_date

@@ -1,0 +1,5 @@
+checkName,checkDescription,sqlFile,csvFile,evaluationFilter,subQuery,subQueryResult
+PersonId_VisitOccurrenceId,"1. Visit Occurrence Table의 Person_ID 와 @cdmTableName의 Person_ID 비교: count, pct 산출",DQ_query1_PersonId_VisitOccurrenceId.sql,query1.csv,,,
+VisitStartDate_TableDate,"2. Visit Occurrence Table의 visit_start_date 와 @cdmTableName의 @StartDate 비교: count, pct 산출 ",DQ_query2_VisitStartDate_TableDate.sql,query2.csv,,,
+SourceValue_ConceptId,"3. @SourceValue에 대하여 매핑된 @ConceptId의 정확성 검토: count, pct 산출",DQ_query3_SourceValue_ConceptId.sql,query3.csv,,,
+Duplicated_Detect,"4. 데이터 이관 과정에서 발생한 중복 데이터 탐지: count, pct 산출 ",DQ_query4_duplicated_detect.sql,query4.csv,,subquery4.sql,columnlist
