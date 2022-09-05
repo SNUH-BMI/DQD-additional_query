@@ -7,6 +7,7 @@ Original file is located at
     https://colab.research.google.com/drive/1-ClGx7Akys4O3ZibOc2MdfdimbE8fL9t
 """
 
+import os
 import pip
 
 def pip_install(package):
@@ -15,11 +16,11 @@ def pip_install(package):
     else:
         pip._internal.main(['install', package])
 
-pip_install('pandas')
-        
-pip_install('psycopg2-binary')
+#pip_install('pandas')
+#pip_install('psycopg2-binary')
 
-pip_install('SQLAlchemy')
+os.system('python -m pip install pandas')
+os.system('python -m pip install psycopg2-binary')
 
 # DB
 import psycopg2
@@ -30,7 +31,6 @@ import warnings
 import configparser
 
 # sup
-import os
 import pandas as pd
 import re
 from datetime import datetime
