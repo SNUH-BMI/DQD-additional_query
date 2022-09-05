@@ -3,7 +3,7 @@
 
 ------------------------
 ### Queries
-#### Query1. Person Id Visit OccurrenceId
+#### Query1. Person Id - Visit Occurrence Id
 ```
 Visit Occurrence Table의 Person_ID 와 각 Table의 Person_ID 비교
 ```
@@ -21,7 +21,7 @@ SourceValue에 대하여 매핑된 ConceptId의 정확성 검토
 ```
 
 
-#### Query4. Duplicated Detect
+#### Query4. Duplicated data Detect
 ```
 데이터 이관 과정에서 발생한 중복 데이터 탐지  
 ```
