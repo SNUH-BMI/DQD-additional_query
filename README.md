@@ -45,7 +45,6 @@ subquery를 실행하여 query4.csv파일이 수정됨 -> query4.csv의 columnli
 --------------------
 ## Required Packages
 ```
-psycopg2-binary  
-SQLAlchemy  
+psycopg2
 pandas  
 ```
