@@ -30,9 +30,18 @@ SourceValue에 대하여 매핑된 ConceptId의 정확성 검토
 ## How to Run
 ### 1. Make a python 
 build_config.py 또는 build_config.ipynb 실행하여 config.ini 생성
+(Postgres 에서만 실행됨)
 ```
-DQD directory : 미입력시 현재 디렉토리
-outputFolder : 미입력시 result_날짜
+1) DB 정보 입력
+ - Host:
+ - DB name: postgres
+ - Port: 
+ - Username:
+ - Password:
+ 
+2) 디렉토리 정보 입력
+ - DQD directory : 미입력시 현재 디렉토리
+ - outputFolder : 미입력시 result_날짜
 ```
 
 ### 2. Run queries
