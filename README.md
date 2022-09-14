@@ -1,4 +1,4 @@
-# DQD
+# DataQualityChecks
 ### Run additional queries on cdm
 
 ------------------------
