@@ -5,19 +5,19 @@
 ### Queries
 #### Query1. Person Id - Visit Occurrence Id
 ```
-Visit Occurrence Table의 Person_ID 와 각 Table의 Person_ID 비교
+Visit Occurrence Table의 person_id 와 각 Table의 person_id 비교
 ```
 
 
-#### Query2. Visit Start Date Table Date
+#### Query2. Visit Start Date - Table Date
 ```
-Visit Occurrence Table의 visit_start_date 와 각 Table의 Start_Date 비교
+Visit Occurrence Table의 visit_start_date 와 각 Table의 start_date 비교
 ```
 
 
-#### Query3. Source Value Concept Id
+#### Query3. Source Value - Concept Id
 ```
-SourceValue에 대하여 매핑된 ConceptId의 정확성 검토
+Source_value에 대하여 매핑된 Concept_id의 정확성 검토
 ```
 
 
@@ -47,7 +47,7 @@ build_config.py 또는 build_config.ipynb 실행하여 config.ini 생성
 ### 2. Run queries
 execute.py 또는 execute.ipynb 실행하여 result 생성
 ```
-Query4의 그룹 컬럼 선택을 위해 처음으로 실행시(query4.csv의 columnlist 열이 비어있으면)
+참고. Query4의 그룹 컬럼 선택을 위해 처음으로 실행시(query4.csv의 columnlist 열이 비어있으면)
 subquery를 실행하여 query4.csv파일이 수정됨 -> query4.csv의 columnlist 열이 채워짐
 ```
 
