@@ -28,7 +28,7 @@ Source_value에 대하여 매핑된 Concept_id의 정확성 검토
 
 --------------------
 ## How to Run
-### 1. Make a python 
+### 1. Make a config file
 build_config.py 또는 build_config.ipynb 실행하여 config.ini 생성
 (Postgres 에서만 실행됨)
 ```
