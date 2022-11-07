@@ -41,7 +41,7 @@ build_config.py 또는 build_config.ipynb 실행하여 config.ini 생성
  
 2) 디렉토리 정보 입력
  - DQD directory : 미입력시 현재 디렉토리
- - outputFolder : 미입력시 result_날짜
+ - outputFolder : 미입력시 result_{timestamp}
 ```
 
 ### 2. Run queries
